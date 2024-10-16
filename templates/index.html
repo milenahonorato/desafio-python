@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Minha Lista de Tarefas</h1>
+        <input type="text" placeholder="Adicione uma nova tarefa">
+        <button>Adicionar</button>
+        <ul>
+            <li>
+                Tarefa 1
+                <button>Remover</button>
+            </li>
+            <li>
+                Tarefa 2
+                <button>Remover</button>
+            </li>
+            <!-- Mais tarefas aqui -->
+        </ul>
+    </div>
+</body>
+</html>
